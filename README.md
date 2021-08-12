@@ -26,3 +26,4 @@ Serverless Devs Astro template
 # References
 
 * Astro: https://astro.build/
+* Serverless Devs: https://www.serverless-devs.com/
