@@ -9,7 +9,7 @@ Serverless Devs Astro template
 
 # 如何设置阿里云账号信息
 
-项目创建完毕后，你需要设置一下Github Actions信息，这样可以将你的Astro站点自动部署到阿里云Serverless平台上。 请点击 [Actions secrets](settings/secrets/actions)，然后进行如下设置：
+项目创建完毕后，你需要设置一下Github Actions信息，这样可以将你的Astro站点自动部署到阿里云Serverless平台上。 请点击 [Actions secrets](../../settings/secrets/actions)，然后进行如下设置：
 
 ![Github actions secret](./public/serverless-devs-github-actions.png)
 
