@@ -1,0 +1,18 @@
+edition: 1.0.0
+name: astro-bootstrap5-website
+vars:
+  domain: x.resume.net.cn #please change to your domain
+services:
+  frontend:
+    component: jamstack
+    props:
+      domain: ${vars.domain}
+      favicon: true
+      defaultApp: portal
+      apps:
+        - name: portal
+          type: jamstack
+          releaseCode: dist
+          paths:
+            - /
+          indexFile: index.html
